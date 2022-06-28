@@ -10,11 +10,11 @@ puts "----------"
 
 # Your code goes here ...
 @store1.employees.create([
-  {first_name: "Minh", last_name: "Vo", hourly_rate: 15},
-  {first_name: "First", last_name: "Last", hourly_rate: 20},
+  {first_name: "Minh", last_name: "Vo", hourly_rate: 50},
+  {first_name: "First", last_name: "Last", hourly_rate: 60},
 ])
 
 @store2.employees.create([
-  {first_name: "Em", last_name: "Ployee", hourly_rate: 25},
-  {first_name: "New", last_name: "Person", hourly_rate: 30},
+  {first_name: "Em", last_name: "Ployee", hourly_rate: 70},
+  {first_name: "New", last_name: "Person", hourly_rate: 80},
 ])
